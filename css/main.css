@@ -5,6 +5,11 @@ html.ext-active {
 button, input, textarea {
   min-height: initial !important; }
 
+@media (max-width: 1349px) {
+  html.ext-active {
+    position: relative !important;
+    top: 40px !important; } }
+
 @media screen and (min-width: 1700px) {
   html.ext-active {
     position: relative !important;
